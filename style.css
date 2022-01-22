@@ -465,7 +465,9 @@ input:required {
     color: #ffffff;
     font-weight: 500; }
 
-/* :: 7.0 Header CSS */
+
+/* :: 7.0 Header CSS ========================================================================
+*/
 .header-area {
   position: fixed;
   z-index: 100;
@@ -629,8 +631,6 @@ input:required {
 
 .classy-navbar-toggler .navbarToggler span {
   background-color: #ffffff; }
-
-
   
 
   /* arrow  Symbol "owl-next"
@@ -763,8 +763,10 @@ input:required {
         font-size: 12px; } }
     .footer-content .social-info a:hover, .footer-content .social-info a:focus {
       color: #fc6060; }
+      
 
-/* :: 10.0 Follow CSS */
+/* :: 10.0 Follow CSS=========================================================================== 
+-----------------*/
 .single-instagram-item {
   position: relative;
   z-index: 1;
@@ -785,7 +787,7 @@ input:required {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(252, 96, 96, 0.9);
+    background-color: #fc606086;
     opacity: 0;
     visibility: hidden;
     -webkit-transition-duration: 500ms;
@@ -823,7 +825,8 @@ input:required {
   margin-top: 0;
   opacity: 1; }
 
-/* :: 11.0 About CSS */
+
+/* :: 11.0 About and Service section CSS --------------------------------------------------------------------*/
 .about-us-content h3 {
   font-size: 36px;
   display: block;
@@ -910,6 +913,9 @@ input:required {
     width: 200%;
     height: 200%;
     opacity: 0; } }
+
+/*Service section =====================================================================  
+-----------------------------------------------------*/
 .why-choose-us-content {
   -webkit-transition-duration: 800ms;
   -o-transition-duration: 800ms;
@@ -925,15 +931,15 @@ input:required {
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
     transition-duration: 800ms;
-    height: 76px;
-    width: 76px;
-    background-color: #fc6060;
+    height: 65px;
+    width: 65px;
+    background-color: #fc6060c2;
     display: inline-block;
     text-align: center;
     line-height: 76px;
     border-radius: 50%;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
     top: -38px;
     left: 50%;
@@ -949,10 +955,11 @@ input:required {
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
     transition-duration: 800ms;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 0; }
+  /* service hover background color -----------------------------------------------*/
   .why-choose-us-content:hover, .why-choose-us-content:focus {
-    background-color: #fc6060; }
+    background-color: #fc606086; }
     .why-choose-us-content:hover .chosse-us-icon, .why-choose-us-content:focus .chosse-us-icon {
       background-color: #000000;
       box-shadow: 0 5px 15px 2px rgba(255, 255, 255, 0.15); }
@@ -960,6 +967,7 @@ input:required {
     .why-choose-us-content:hover p, .why-choose-us-content:focus h4,
     .why-choose-us-content:focus p {
       color: #ffffff; }
+/* Service sction End ----------------------------------------------------------------*/
 
 /* :: 12.0 Breadcrumb CSS */
 .breadcrumb-area {
@@ -1436,8 +1444,10 @@ input:required {
     .related-news-area .row .col-12 {
       padding-right: 5px;
       padding-left: 5px; }
+      
 
-/* :: 14.0 Team CSS */
+/* :: 14.0 Team CSS ===========================================================================
+*/
 .team-content-area {
   position: relative;
   z-index: 1;
@@ -1487,7 +1497,7 @@ input:required {
       .team-content-area .member-social-info a:hover, .team-content-area .member-social-info a:focus {
         color: #fc6060; }
   .team-content-area:hover, .team-content-area:focus {
-    background-color: #fc6060; }
+    background-color: #fc606086; }
     .team-content-area:hover .member-thumb img, .team-content-area:focus .member-thumb img {
       -webkit-transform: rotate(25deg);
       -ms-transform: rotate(25deg);
